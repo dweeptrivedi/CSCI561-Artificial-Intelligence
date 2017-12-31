@@ -1,0 +1,6 @@
+1
+GA(Add)
+3
+~FA(y,y,Kishan) | GA(z)
+~AB(x,y,Kishan) | FA(x,z,y)
+AB(Kishan,Kishan,Kishan)

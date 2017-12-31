@@ -1,0 +1,5 @@
+1
+P(Joe, Mary)
+2
+P(x,y) | P(a,b) | ~A(x)
+A(y) | ~P(c,d)

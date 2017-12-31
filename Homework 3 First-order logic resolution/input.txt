@@ -1,0 +1,12 @@
+3
+F(A,B)
+P10(Joe, Mary)
+P210(John)
+7
+~G(x,y) | F(y,x)
+~F(S,SS)|G(x,y)
+G(SS,S)
+P10(x,y) | P10(a,b) | ~A10(x)
+A10(y) | ~P10(c,d)
+~A210(x) | B210(x) | P210(John)
+A210(x) | ~B210(x)
