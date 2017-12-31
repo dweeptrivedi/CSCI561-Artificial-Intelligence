@@ -187,6 +187,8 @@ calibrate<<3<<endl;
 //numSamples
 calibrate<<5<<endl;
 
+//eq = (maxDepth+(nodes/N))/(timediff-overhead)
+//why did I do nodes/N?
 for (int i=1;i<=maxN;i++){
     double overhead = matrix1[i][maxK];
     calibrate<<i<<endl<<matrix1[i][0]<<endl<<((matrixn[i][2]*matrixn[i][2]+(matrixn[i][3]/matrixn[i][0]))/fabs(matrixn[i][maxK]-overhead))<<endl;
